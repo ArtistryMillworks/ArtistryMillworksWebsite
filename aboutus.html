@@ -1,35 +1,29 @@
-<html>
-<head>
-    <style>
-        .team {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .team-member {
-            margin: 10px;
-            text-align: center;
-        }
-        h2 {
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    
-    <div class="team">
+<section class="team">
+    <h2 style="text-align:center;">Our Team</h2>
+    <div class="team-members-row">
         <div class="team-member">
-            <h3>Member 1</h3>
-            <p>Profile info</p>
+            <h3>Jence Dever</h3>
+            <p>Chief Marketing Officer</p>
+            <p>Jence specializes in marketing, social media, and organization. He is driven to make sure the customer is always heard and taken care of. When he's not working, you can find Jence skiing, working out at the gym, or being the world's best husband.</p>
+            <img src="images/jencedever.png" alt="Jence Dever">
         </div>
         <div class="team-member">
-            <h3>Member 2</h3>
-            <p>Profile info</p>
+            <h3>Steve Roth</h3>
+            <p>Co-Founder & Chief Operations Officer</p>
+            <p>Steve has been in the woodworking business since he was 12 years old. With years of experience, he never fails to make sure each customer is met with the utmost quality of care and craftsmanship. Steve's personal interests include taking care of his family, seeing the world, and helping his neighbors with any tasks.</p>
+            <img src="images/stevenroth.png" alt="Steve Roth">
         </div>
         <div class="team-member">
-            <h3>CJ</h3>
-            <p>Profile info</p>
+            <h3>CJ Dever</h3>
+            <p>Co-Founder & Chief Financial Officer</p>
+            <p>CJ has spent his career as a successful financial advisor in the financial world. He has a passion for making sure Artistry Millworks has the finances on hand to support and grow our company. CJ's interests include football, family, and helping people gain financial freedom.</p>
+            <img src="images/cjdever.png" alt="CJ Dever">
         </div>
     </div>
-</body>
-</html>
+</section>
+
+<style>
+.team-members-row { display: flex; justify-content: center; align-items: stretch; gap: 30px; }
+.team-member { flex: 1 1 0; max-width: 300px; min-width: 220px; text-align: center; }
+.team h2 { text-align: center; }
+</style>
